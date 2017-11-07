@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { Http } from '@angular/http'
 
 @Component({
 
@@ -12,9 +13,6 @@ export class HomeComponent{
 
     Title:any = "Pankaj Angular";
 
-    /**
-     *
-     */
     constructor() {
         this.Title = "Angular js";
         
